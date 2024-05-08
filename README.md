@@ -2,17 +2,17 @@
 Projekt 3 pro Engeto Python Akademii
 
 ## Popis projektu
-Cílem je extrahování výsledků parlamentních voleb v roce 2017 pro vybraný okres [z tohoto odkazu](https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ) (Odkaz X ve sloupci "Výběr obce") a jejich uložení do csv souboru.
-Program projde všechny obce daného okresu a uloží do toho csv souboru hodnoty ve sloupcích "Kód obce", "Název obce", "Voliči v seznamu", "Vydané obálky", "Platné hlasy" a počty hlasů jednotlivých politických stran.
+Cílem je extrahování výsledků parlamentních voleb v roce 2017 pro vybraný okres [z tohoto odkazu](https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ) (Odkaz X ve sloupci "Výběr obce") a jejich uložení do csv souboru.\
+Program projde všechny obce daného okresu a uloží do toho csv souboru hodnoty ve sloupcích "Kód obce", "Název obce", "Voliči v seznamu", "Vydané obálky", "Platné hlasy" a počty hlasů jednotlivých politických stran.\
 
 ## Instalace knihoven
 Knihovny použité v kódu jsou uložené v souboru requirements.txt. 
 
-> pip --version                   Kontrola verze pip
-> pip install requests            Instalace requests knihovny
-> pip install beautifulsoup4      Instalace beautifulsoup4 knihovny
-> pip install pandas              Instaalce pandas knihovny
-> pip freeze > requirements.txt   Výpis seznamu knihoven do requirements.txt souboru
+> pip --version&emsp;&emsp;&emsp;Kontrola verze pip package installeru\
+> pip install requests&emsp;&emsp;&emsp;Instalace requests knihovny\
+> pip install beautifulsoup4&emsp;&emsp;&emsp;Instalace beautifulsoup4 knihovny\
+> pip install pandas&emsp;&emsp;&emsp;Instalace pandas knihovny\
+> pip freeze > requirements.txt&emsp;&emsp;&emsp;Výpis seznamu knihoven do requirements.txt souboru\
 
 ## Spuštění projektu
 Soubor Projekt3.py se spouští z příkazového řádku a požaduje dva argumenty, které jsou podmíněny přímo v kódu programu a musí mít správné pořadí.
