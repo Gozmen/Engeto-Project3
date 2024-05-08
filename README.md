@@ -17,7 +17,7 @@ Knihovny použité v kódu jsou uložené v souboru requirements.txt.
 ## Spuštění projektu
 Soubor Projekt3.py se spouští z příkazového řádku a požaduje dva argumenty, které jsou podmíněny přímo v kódu programu a musí mít správné pořadí.
 
-> python Projekt3.py <odkaz_uzemniho_celku> <vystupni_soubor>
+> python Projekt3.py "<odkaz_uzemniho_celku>" "<vystupni_soubor.csv>"
 
 Výstupem programu je .csv soubor s výsledky voleb.
 
