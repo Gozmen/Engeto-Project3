@@ -3,7 +3,7 @@ Projekt 3 pro Engeto Python Akademii
 
 ## Popis projektu
 Cílem je extrahování výsledků parlamentních voleb v roce 2017 pro vybraný okres [z tohoto odkazu](https://volby.cz/pls/ps2017nss/ps3?xjazyk=CZ) (Odkaz X ve sloupci "Výběr obce") a jejich uložení do csv souboru.\
-Program projde všechny obce daného okresu a uloží do toho csv souboru hodnoty ve sloupcích "Kód obce", "Název obce", "Voliči v seznamu", "Vydané obálky", "Platné hlasy" a počty hlasů jednotlivých politických stran.
+Program projde všechny obce daného okresu a uloží do csv souboru hodnoty ve sloupcích "Kód obce", "Název obce", "Voliči v seznamu", "Vydané obálky", "Platné hlasy" a počty hlasů jednotlivých politických stran.
 
 ## Instalace knihoven
 Knihovny použité v kódu jsou uložené v souboru requirements.txt. 
