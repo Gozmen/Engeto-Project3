@@ -49,7 +49,7 @@ def collect_votes(links):
     votes = []
     for link in links:
         soup = get_soup(link)
-        town_votes = [v.text.replace('\xa0', '') for v in soup.find_all("td", "cislo", headers=["t1sb3", "t2sb3"])]  # Using headers for actual vote counts
+        town_votes = [v.text.replace('\xa0', '') for v in soup.find_all("td", "cislo", headers=["t1sb3", "t2sb3"])] 
         votes.append(town_votes)
     return votes
 
